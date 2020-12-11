@@ -19,7 +19,7 @@ Link: https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDb+
 All our datasets can be accessed in this repository in the "movie_industry_datasets.rar" file.
 
 ## Program: 
-The program leverages both the aboveforementioned datasets to inform the user: 
+The program leverages both the aforementioned datasets to inform the user: 
  - Top 10 movies based on revenue 
  - Top 10 movies based on user rating 
  - Total count of movies by year 
@@ -41,4 +41,16 @@ The program also seeks engagement from the user to inpur, for example:
  - Output: list of movies in selected langauge and preliminary information 
 
 ## Multilinear Regression Model 
-The is also a multilinear regression model where we've analyzed which variables have the strongest correlation. Here is the list of 
+The is also a multilinear regression model analyzing which variables have the strongest correlation. Here is the list of the variables analyzed: 
+- revenue 
+- budget
+- year
+- gener 
+- production company
+
+Based on the R squared, strongest correlation among these variables were (in order of strongest correlation): 
+1. Revenue ~ Budget 
+2. Genre ~ Budget 
+3. Budget ~ Duration 
+
+From all movies released between the years of 2000 and 2020, we predicted the movies' revenue and calculated an R square of about 83%. Therefore, our model has a strong significance predicting the revenue of a movie. 
