@@ -23,8 +23,8 @@ The program leverages both the aforementioned datasets and is filtered to includ
 
  - Top 10 movies based on revenue 
  - Top 10 movies based on user rating 
- - Total count of movies by year 
- - Total count of movies by genre 
+ - Total count of movies by year (bar chart)
+ - Total count of movies by genre (pie chart)
  - Top 5 directors based on movies' revenue 
  - Top 5 directors based on movies' popularity (popularity defined by viewers' reviews)
  - Top 5 directors based on movies' budget 
