@@ -19,7 +19,8 @@ Link: https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDb+
 All our datasets can be accessed in this repository in the "movie_industry_datasets.rar" file.
 
 ## Program: 
-The program leverages both the aforementioned datasets to inform the user: 
+The program leverages both the aforementioned datasets and is filtered to include only movies released between the years of 2000 and 2020. Users will be informed of the following:
+
  - Top 10 movies based on revenue 
  - Top 10 movies based on user rating 
  - Total count of movies by year 
