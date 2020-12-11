@@ -9,8 +9,10 @@ Our goal is to improve/enhance the revenue basis of the movie industry based on 
 
 ## Datasets:
 ### Dataset 1: Metadata
+This dataset contains information on over 45,000 movies including budget, overview, and more. \
 Link: https://www.kaggle.com/ibtesama/getting-started-with-a-movie-recommendation-system/data?select=movies_metadata.csv  
 ### Dataset 2: IMDb Movies
+This dataset contains information on over 85,000 movies including production company, actors, directors, genre, and more. \
 Link: https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDb+movies.csv
 
 All our datasets can be accessed in this repository in the "movie_industry_datasets.rar" file.
