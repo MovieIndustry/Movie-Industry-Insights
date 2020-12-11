@@ -19,7 +19,7 @@ Link: https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset?select=IMDb+
 All our datasets can be accessed in this repository in the "movie_industry_datasets.rar" file.
 
 ## Program: 
-The program leverages both the aforementioned datasets and is filtered to include only movies released between the years of 2000 and 2020. Users will be informed of the following:
+The program leverages both the aforementioned datasets and is filtered to include only movies released between the years 2000 and 2020. Users will be informed of the following:
 
  - Top 10 movies based on revenue 
  - Top 10 movies based on user rating 
@@ -32,26 +32,26 @@ The program leverages both the aforementioned datasets and is filtered to includ
  - Actors that appeared in the top 5 popular movies 
  - Movie recommendations based on users selected language and movies' popularity rating
  - Least popular movies based on users selected language and movies' popularity rating 
- - List of popular actors based on popularity rating 
+ - List of popular actors based on the popularity rating 
 
-The program also seeks engagement from the user to inpur, for example: 
+The program also seeks engagement from the user to input, for example: 
  - Input: "Enter movie title of interest"
  - Output: inputted movie's description 
  
  - Input: "Learn more about movies in specific language" (user inputs a specific language: i.e., "English")
- - Output: list of movies in selected langauge and preliminary information 
+ - Output: list of movies in selected language and preliminary information 
 
 ## Multilinear Regression Model 
-The is also a multilinear regression model analyzing which variables have the strongest correlation. Here is the list of the variables analyzed: 
+There is also a multilinear regression model analyzing which variables have the strongest correlation. Here is the list of the variables analyzed: 
 - revenue 
 - budget
 - year
-- gener 
+- genre
 - production company
 
-Based on the R squared, strongest correlation among these variables were (in order of strongest correlation): 
+Based on the R squared, the strongest correlation among these variables were (in order of strongest correlation): 
 1. Revenue ~ Budget 
 2. Genre ~ Budget 
 3. Budget ~ Duration 
 
-From all movies released between the years of 2000 and 2020, we predicted the movies' revenue and calculated an R square of about 83%. Therefore, our model has a strong significance predicting the revenue of a movie. 
+From all movies released between the years 2000 and 2020, we predicted the movies' revenue and calculated an R square of about 83%. Therefore, our model has a strong significance in predicting the revenue of a movie. 
