@@ -26,7 +26,7 @@ The program leverages both the aforementioned datasets and is filtered to includ
  - Total count of movies by year 
  - Total count of movies by genre 
  - Top 5 directors based on movies' revenue 
- - Top 5 directors based on movies' popularity 
+ - Top 5 directors based on movies' popularity (popularity defined by viewers' reviews)
  - Top 5 directors based on movies' budget 
  - Actors that appeared in the top 5 profitable movies 
  - Actors that appeared in the top 5 popular movies 
