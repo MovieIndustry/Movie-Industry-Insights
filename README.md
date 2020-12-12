@@ -54,4 +54,4 @@ Based on the R squared, the strongest correlation among these variables were (in
 2. Genre ~ Budget 
 3. Budget ~ Duration 
 
-From all movies released between the years 2000 and 2020, we predicted the movies' revenue and calculated an R square of about 83%. Therefore, our model has a strong significance in predicting the revenue of a movie. 
+From all movies released between the years 2000 and 2020, we predicted the movies' revenue and calculated an R square of about 83% between actual revenue and predicted revenue. Therefore, our model has a strong significance in predicting the revenue of a movie. 
