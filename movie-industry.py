@@ -266,26 +266,7 @@ plt.show()
 
 print("R2 Score: ", r2_score(compare_pred.revenue, compare_pred.Predicted_Revenue))
 
-#User input
 
-"""
-my_list = genre_data.columns.values.tolist()
-corrMatrix =genre_data.corr()
-sn.heatmap(corrMatrix, annot=True)
-plt.show()
-#print(genre_data.head())
-
-print(genre_data.corr(method='pearson', min_periods=1))
-correlation_matrix = all_df.corr()
-print(correlation_matrix)
-Genre = input('Enter Desired Genre')
-Production_company = input('Enter Desired Production_company')
-Duration = float(input("Duration"))
-Budget  = float(input("Budget"))
-
-pred_df = pd.DataFrame(columns = ["duration","budget"])
-
-"""
 
 
 
